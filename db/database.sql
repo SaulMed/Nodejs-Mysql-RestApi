@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS empresadb;
+
+USE empresadb;
+
+CREATE TABLE empleado(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(45) DEFAULT NULL,
+    salario INT(8) DEFAULT NULL,
+    PRIMARY KEY(id)
+);
+
+DESCRIBE empleado;
